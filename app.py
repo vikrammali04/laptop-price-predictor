@@ -1,10 +1,14 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
 # import the model
-pipe = pickle.load(open('pipe.pkl','rb'))
-df = pickle.load(open('df.pkl','rb'))
+file_path = os.path.join(os.path.dirname(__file__), 'pipe.pkl')
+file_path1 = os.path.join(os.path.dirname(__file__), 'df.pkl')
+
+pipe = pickle.load(open(file_path,'rb'))
+df = pickle.load(open(file_path1,'rb'))
 
 st.title("Laptop Price Predictor")
 
