@@ -4,8 +4,7 @@
 
 Welcome to the Laptop Price Prediction Web App! This web application predicts laptop prices based on the given laptop configuration. The machine learning model is built using RandomForestRegressor from scikit-learn and trained on an open-source dataset from Kaggle. The web app is created using Streamlit and deployed for easy access and usage.
 
-You can access the live web app [here]([insert-live-app-link](https://laptop-p1z7antk8o.streamlit.app/)).
-
+You can access the live web app [here](https://laptop-p1z7antk8o.streamlit.app/).
 ## How to Use the Web App :
 
 Using the Laptop Price Prediction Web App is simple and straightforward. Follow the steps below to get started:
